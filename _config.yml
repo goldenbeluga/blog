@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "default"
 title                    : "TBD"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Your Name"
 description              : "An amazing website."
 url                      : "https://goldenbeluga.github.io/blog/"
