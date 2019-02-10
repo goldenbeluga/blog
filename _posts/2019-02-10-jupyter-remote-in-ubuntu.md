@@ -1,8 +1,8 @@
 ![](/img/1.jpg)
-![Image Alt 텍스트]({{site.url}}/_posts/img/1.jpg )
+![Image Alt 텍스트]({{site.url}}/assets/img/1.jpg )
 ![Image Alt 텍스트](http://blog.jaeyoon.io/assets/img/1.jpg)
-![Image Alt 텍스트]({{"/_posts/img/1.jpg"| relative_url}})
-![Image Alt 텍스트](/_posts/img/1.jpg)
+![Image Alt 텍스트]({{"/assets/img/1.jpg"| relative_url}})
+![Image Alt 텍스트](/assets/img/1.jpg)
 
 # remote될 컴터 설정  
 ## 1. 우분투 ssh설정 
