@@ -19,7 +19,8 @@ $ jupyter notebook --generate-config
 ```
 $ jupyter notebook password
 ```
-비밀번호 설정도 하자 1234여기 들어가면 암호화된 비번이 있는데 이 비번을 나중에 입력해도 되고 귀찮으면 입력한 애를 넣어도 됨.  
+비밀번호 설정도 하자 1234  
+여기 들어가면 암호화된 비번이 있는데 이 비번을 나중에 입력해도 되고 귀찮으면 입력한 애를 넣어도 됨.  
 
 ![]({{site.url}}/assets/img/3.jpg )
 ![]({{site.url}}/assets/img/4.jpg )
@@ -31,8 +32,15 @@ $ vim /home/user/.jupyter/jupyter_notebook_config.py
 ```
 로 들어가서 아래 부분에 내용 추가
 ```
-c.NotebookApp.password = u'your password'c.NotebookApp.port = 8888c.NotebookApp.ip = 'your IP(sever)'c.NotebookApp.open_browser = Falsec.NotebookApp.allow_remote_access = Truec.NotebookApp.password_required = Truec.NotebookApp.allow_origin = '' # 주석풀기
+c.NotebookApp.password = u'your password'
+c.NotebookApp.port = 8888
+c.NotebookApp.ip = 'your IP(sever)'
+c.NotebookApp.open_browser = False
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.password_required = True
+c.NotebookApp.allow_origin = '' # 주석풀기
 ```
+---
 # remote할 컴터 설정
 ## putty
 ![]({{site.url}}/assets/img/6.jpg )
