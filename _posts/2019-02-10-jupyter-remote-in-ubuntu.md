@@ -9,13 +9,13 @@ $ sudo service ssh start$ service --status-all | grep + #여기에 ssh가 있으
 $ sudo netstat -antp # SSH 서비스가 몇 번 포트를 점유하고 있는지도 확인
 ```
 ## 2. jupyter setting
-![](./img/1.jpg)
+![](/img/1.jpg)
 ```
 $ jupyter notebook --generate-config
 ```
 이 명령어 치면 파일이 하나 생성됨  
 이 폴더로 가서 설정을 바꿔야함  
-![](./img/2.jpg)
+![](_posts/img/2.jpg)
 ```
 $ jupyter notebook password
 ```
