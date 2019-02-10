@@ -10,6 +10,11 @@ $ sudo netstat -antp # SSH 서비스가 몇 번 포트를 점유하고 있는지
 ```
 ## 2. jupyter setting
 ![](/img/1.jpg)
+- ![Image Alt 텍스트]({{site.url}}/assets/img/1.jpg )
+- ![Image Alt 텍스트](http://blog.jaeyoon.io/assets/img/1.jpg)
+- ![Image Alt 텍스트]({{"/assets/img/1.jpg"| relative_url}})
+- ![Image Alt 텍스트](/assets/img/1.jpg)
+
 ```
 $ jupyter notebook --generate-config
 ```
